@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+    background-color: #222;
+    background-image: url('https://source.unsplash.com/1920x1080/?nature');
+  }
+
+.card {
+    /* color: black; */
+   
+    background: #000000d0;
+    color: white;
+    padding: 2em;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+}
+
+.w-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.t-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.w-search-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    padding: 0.5em 1em;
+    border-radius: 22px;
+    color: #fff;
+    background: #ffffff2b;
+    font-family: inherit;
+    font-size: 120%;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 1rem;
+    padding: 0.5em;
+    border: none;
+    outline: none;
+}
+
+.w-search{
+    display: flex;
+    justify-content: left;
+    align-items: inherit;
+    padding: 4%;
+    border: none;
+    outline: none;
+    border-radius: 428px;
+    background-color: #b1b1b130;
+    color: white;
+    margin-right: 12%;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.w-search:hover{
+    background-color: #f7e9e930;
+}
+
+
+.w-clear:hover{
+    background-color: #fc515130;
+}
+
+.w-clear{
+    display: flex;
+    justify-content: left;
+    align-items: inherit;
+    padding: 4%;
+    border: none;
+    outline: none;
+    border-radius: 428px;
+    background-color: #b1b1b130;
+    color: white;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+
+
+.w-temp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: inherit;
+    
+}
+
+
+
+.w-description{
+    text-transform: capitalize;
+}
+
+.w-info.loading{
+    visibility: hidden;
+}
+
+.w-info.loading :after{
+    visibility: visible;
+}
